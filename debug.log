@@ -1270,3 +1270,148 @@ ValueError: Unsupported action 'read'.
 2026-05-06 17:21:35 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
 2026-05-06 17:21:35 - agents.memory.queue - INFO - Memory update queued for thread mock-interview-01, queue size: 1
 2026-05-06 17:21:35 - sandbox.middleware - INFO - Releasing sandbox local from context
+2026-05-07 21:26:06,904 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-07 21:26:06,905 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-07 21:26:06,928 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-07 21:26:07,523 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-07 21:26:07,523 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-07 21:26:07,523 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-07 21:26:07,588 - deer_flow_mcp.tools - ERROR - Failed to load MCP tools: [WinError 5] 拒绝访问。
+Traceback (most recent call last):
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\mcp\os\win32\utilities.py", line 169, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\anyio\_core\_subprocesses.py", line 184, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2617, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\asyncio\windows_events.py", line 400, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\asyncio\windows_events.py", line 878, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\asyncio\windows_utils.py", line 136, in __init__
+    stdin_rh, stdin_wh = pipe(overlapped=(False, True), duplex=True)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\asyncio\windows_utils.py", line 63, in pipe
+    h2 = _winapi.CreateFile(
+         ^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] 拒绝访问。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\BAI\Desktop\project\backend\deer_flow_mcp\tools.py", line 115, in get_mcp_tools
+    tools = await client.get_tools()
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_mcp_adapters\client.py", line 197, in get_tools
+    tools_list = await asyncio.gather(*load_mcp_tool_tasks)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_mcp_adapters\tools.py", line 478, in load_mcp_tools
+    async with create_session(
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 457, in create_session
+    async with _create_stdio_session(**params) as session:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_mcp_adapters\sessions.py", line 269, in _create_stdio_session
+    stdio_client(server_params) as (read, write),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\mcp\client\stdio\__init__.py", line 124, in stdio_client
+    process = await _create_platform_compatible_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\mcp\client\stdio\__init__.py", line 249, in _create_platform_compatible_process
+    process = await create_windows_process(command, args, env, errlog, cwd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\mcp\os\win32\utilities.py", line 184, in create_windows_process
+    process = await anyio.open_process(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\anyio\_core\_subprocesses.py", line 184, in open_process
+    return await get_async_backend().open_process(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2617, in open_process
+    process = await asyncio.create_subprocess_exec(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\asyncio\windows_events.py", line 400, in _make_subprocess_transport
+    transp = _WindowsSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\asyncio\base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\asyncio\windows_events.py", line 878, in _start
+    self._proc = windows_utils.Popen(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\asyncio\windows_utils.py", line 136, in __init__
+    stdin_rh, stdin_wh = pipe(overlapped=(False, True), duplex=True)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\asyncio\windows_utils.py", line 63, in pipe
+    h2 = _winapi.CreateFile(
+         ^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] 拒绝访问。
+2026-05-07 21:26:07,597 - deer_flow_mcp.cache - INFO - MCP tools initialized: 0 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-07 21:26:07,670 - backend.agents.lead_agent.agent - INFO - Create Agent(default-agent) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-07 21:26:09,200 - tools.tools - INFO - Including subagent tools (task)
+2026-05-07 21:26:09,201 - tools.tools - INFO - Using 0 cached MCP tool(s)
+2026-05-07 21:26:09,201 - tools.tools - INFO - Tool search active: 0 tools deferred
+2026-05-07 21:26:09,201 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 0, ACP tools: 0
+2026-05-07 21:26:12,839 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 21:26:12,846 - agents.memory.queue - INFO - Memory update queued for thread 4944a48037cc, queue size: 1
+2026-05-07 21:27:56,861 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-07 21:27:56,862 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-07 21:27:56,887 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-07 21:27:57,467 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-07 21:27:57,467 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-07 21:27:57,467 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-07 21:28:00,818 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-07 21:28:00,819 - deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-07 21:28:00,887 - backend.agents.lead_agent.agent - INFO - Create Agent(default-agent) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-07 21:28:02,394 - tools.tools - INFO - Including subagent tools (task)
+2026-05-07 21:28:02,395 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-07 21:28:02,395 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-07 21:28:02,395 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-07 21:28:07,295 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 21:28:07,314 - agents.memory.queue - INFO - Memory update queued for thread e4ddfc7d161c, queue size: 1
+2026-05-07 21:28:37,317 - agents.memory.queue - INFO - Processing 1 queued memory updates
+2026-05-07 21:28:37,317 - agents.memory.queue - INFO - Updating memory for thread e4ddfc7d161c
+2026-05-07 21:28:41,304 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 21:28:41,309 - agents.memory.updater - WARNING - Failed to parse LLM response for memory update: Expecting value: line 1 column 1 (char 0)
+2026-05-07 21:28:41,309 - agents.memory.queue - WARNING - Memory update skipped/failed for thread e4ddfc7d161c
+2026-05-07 21:38:49,864 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-07 21:38:49,864 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-07 21:38:49,898 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-07 21:38:50,479 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-07 21:38:50,479 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-07 21:38:50,479 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-07 21:38:53,169 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-07 21:38:53,170 - deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-07 21:38:53,237 - backend.agents.lead_agent.agent - INFO - Create Agent(agent-f2bf92a5171b) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-07 21:38:54,613 - tools.tools - INFO - Including subagent tools (task)
+2026-05-07 21:38:54,615 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-07 21:38:54,616 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-07 21:38:54,616 - tools.tools - INFO - Total tools loaded: 1, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-07 21:38:58,234 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 21:38:58,251 - agents.memory.queue - INFO - Memory update queued for thread 710db26fce4c, queue size: 1
