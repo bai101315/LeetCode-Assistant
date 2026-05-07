@@ -291,3 +291,982 @@ ValueError: No YAML frontmatter found
 2026-04-27 20:23:51 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
 2026-04-27 20:23:51 - agents.memory.storage - INFO - Memory saved to C:\Users\BAI\Desktop\project\.deer_flow\memory.json
 2026-04-27 20:23:51 - agents.memory.queue - INFO - Memory updated successfully for thread debug-thread-001
+2026-05-03 14:27:09 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-03 14:27:09 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-03 14:27:10 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-03 14:27:10 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-03 14:27:10 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-03 14:27:10 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-03 14:27:10 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-03 14:27:14 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-03 14:27:14 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1776410712.0448382)
+2026-05-03 14:27:15 - backend.agents.lead_agent.agent - INFO - Create Agent(default) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-03 14:27:17 - tools.tools - INFO - Including subagent tools (task)
+2026-05-03 14:27:17 - deer_flow_mcp.cache - INFO - MCP tools not initialized, performing lazy initialization...
+2026-05-03 14:27:17 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-03 14:27:17 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-03 14:27:17 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-03 14:27:17 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-03 14:27:19 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-03 14:27:19 - deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1776410712.0448382)
+2026-05-03 14:27:19 - root - INFO - Successfully lazy initialization mcp
+2026-05-03 14:27:19 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-03 14:27:19 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-03 14:27:19 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-03 14:27:45 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:27:51 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:28:11 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:28:16 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:28:24 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:28:28 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:28:42 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:28:48 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:28:58 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:29:08 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:29:38 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:29:42 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:29:42 - agents.memory.queue - INFO - Memory update queued for thread debug-thread-001, queue size: 1
+2026-05-03 14:30:12 - agents.memory.queue - INFO - Processing 1 queued memory updates
+2026-05-03 14:30:12 - agents.memory.queue - INFO - Updating memory for thread debug-thread-001
+2026-05-03 14:30:28 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:30:28 - agents.memory.storage - INFO - Memory saved to C:\Users\BAI\Desktop\project\.deer_flow\memory.json
+2026-05-03 14:30:28 - agents.memory.queue - INFO - Memory updated successfully for thread debug-thread-001
+2026-05-03 14:31:58 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:32:03 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:32:18 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:32:24 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:32:49 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:32:53 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:33:10 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:33:14 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:33:14 - agents.middlewares.sandbox_audit_middleware - INFO - [SandboxAudit] {"timestamp": "2026-05-03T06:33:14.132611+00:00", "thread_id": "debug-thread-001", "command": "cp /mnt/user-data/workspace/2026-05-03-刷题复盘.md /mnt/user-data/outputs/2026-05-03-刷题复盘.md", "verdict": "pass"}
+2026-05-03 14:33:30 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:33:34 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:33:34 - agents.memory.queue - INFO - Memory update queued for thread debug-thread-001, queue size: 1
+2026-05-03 14:33:34 - sandbox.middleware - INFO - Releasing sandbox local from context
+2026-05-03 14:34:04 - agents.memory.queue - INFO - Processing 1 queued memory updates
+2026-05-03 14:34:04 - agents.memory.queue - INFO - Updating memory for thread debug-thread-001
+2026-05-03 14:34:24 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 14:34:24 - agents.memory.storage - INFO - Memory saved to C:\Users\BAI\Desktop\project\.deer_flow\memory.json
+2026-05-03 14:34:24 - agents.memory.queue - INFO - Memory updated successfully for thread debug-thread-001
+2026-05-03 15:15:32 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-03 15:15:32 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-03 15:15:32 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-03 15:15:32 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-03 15:15:33 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-03 15:15:33 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-03 15:15:33 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-03 15:15:37 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-03 15:15:37 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1776410712.0448382)
+2026-05-03 15:15:37 - backend.agents.lead_agent.agent - INFO - Create Agent(default) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-03 15:15:39 - tools.tools - INFO - Including subagent tools (task)
+2026-05-03 15:15:39 - deer_flow_mcp.cache - INFO - MCP tools not initialized, performing lazy initialization...
+2026-05-03 15:15:39 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-03 15:15:39 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-03 15:15:39 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-03 15:15:39 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-03 15:15:41 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-03 15:15:41 - deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1776410712.0448382)
+2026-05-03 15:15:41 - root - INFO - Successfully lazy initialization mcp
+2026-05-03 15:15:41 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-03 15:15:41 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-03 15:15:41 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-03 15:16:07 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 15:16:11 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 15:16:11 - agents.memory.queue - INFO - Memory update queued for thread debug-thread-001, queue size: 1
+2026-05-05 16:36:46 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-05 16:36:46 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-05 16:36:46 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-05 16:36:46 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-05 16:36:48 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-05 16:36:48 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-05 16:36:48 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-05 16:36:54 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-05 16:36:54 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1776410712.0448382)
+2026-05-05 16:36:54 - backend.agents.lead_agent.agent - INFO - Create Agent(default) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-05 16:36:58 - tools.tools - INFO - Including subagent tools (task)
+2026-05-05 16:36:58 - deer_flow_mcp.cache - INFO - MCP tools not initialized, performing lazy initialization...
+2026-05-05 16:36:58 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-05 16:36:58 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-05 16:36:58 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-05 16:36:58 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-05 16:37:02 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-05 16:37:02 - deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1776410712.0448382)
+2026-05-05 16:37:02 - root - INFO - Successfully lazy initialization mcp
+2026-05-05 16:37:02 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-05 16:37:02 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-05 16:37:02 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-05 16:37:32 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:37:39 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:37:43 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:37:46 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:37:58 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:38:02 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:38:39 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:38:42 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:39:23 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:39:27 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:39:50 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:39:56 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:40:07 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:40:10 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:40:10 - agents.middlewares.sandbox_audit_middleware - INFO - [SandboxAudit] {"timestamp": "2026-05-05T08:40:10.966506+00:00", "thread_id": "debug-thread-001", "command": "cp /mnt/user-data/workspace/2026-05-05-刷题复盘.md /mnt/user-data/outputs/2026-05-05-刷题复盘.md", "verdict": "pass"}
+2026-05-05 16:40:23 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:40:27 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:40:27 - agents.middlewares.sandbox_audit_middleware - INFO - [SandboxAudit] {"timestamp": "2026-05-05T08:40:27.182649+00:00", "thread_id": "debug-thread-001", "command": "cp /mnt/user-data/workspace/2026-05-05-刷题复盘.md /mnt/user-data/outputs/", "verdict": "pass"}
+2026-05-05 16:40:53 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:40:57 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:41:21 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:41:24 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:41:33 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:41:45 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:42:16 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:42:20 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:42:24 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:42:24 - agents.memory.queue - INFO - Memory update queued for thread debug-thread-001, queue size: 1
+2026-05-05 16:42:24 - sandbox.middleware - INFO - Releasing sandbox local from context
+2026-05-05 16:42:54 - agents.memory.queue - INFO - Processing 1 queued memory updates
+2026-05-05 16:42:54 - agents.memory.queue - INFO - Updating memory for thread debug-thread-001
+2026-05-05 16:43:16 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:43:16 - agents.memory.storage - INFO - Memory saved to C:\Users\BAI\Desktop\project\.deer_flow\memory.json
+2026-05-05 16:43:16 - agents.memory.queue - INFO - Memory updated successfully for thread debug-thread-001
+2026-05-05 16:54:15 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-05 16:54:15 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-05 16:54:15 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-05 16:54:15 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-05 16:54:16 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-05 16:54:16 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-05 16:54:16 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-05 16:54:20 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-05 16:54:20 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1776410712.0448382)
+2026-05-05 16:54:20 - backend.agents.lead_agent.agent - INFO - Create Agent(default) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-05 16:54:23 - tools.tools - INFO - Including subagent tools (task)
+2026-05-05 16:54:23 - deer_flow_mcp.cache - INFO - MCP tools not initialized, performing lazy initialization...
+2026-05-05 16:54:23 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-05 16:54:23 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-05 16:54:23 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-05 16:54:23 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-05 16:54:25 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-05 16:54:25 - deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1776410712.0448382)
+2026-05-05 16:54:25 - root - INFO - Successfully lazy initialization mcp
+2026-05-05 16:54:25 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-05 16:54:25 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-05 16:54:25 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-05 16:54:50 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:54:53 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:54:56 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:55:01 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:55:05 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:55:12 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:55:16 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:55:28 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:55:35 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:55:43 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:55:46 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:55:52 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:56:08 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:56:08 - agents.memory.queue - INFO - Memory update queued for thread debug-thread-001, queue size: 1
+2026-05-05 16:56:08 - sandbox.middleware - INFO - Releasing sandbox local from context
+2026-05-05 16:56:38 - agents.memory.queue - INFO - Processing 1 queued memory updates
+2026-05-05 16:56:38 - agents.memory.queue - INFO - Updating memory for thread debug-thread-001
+2026-05-05 16:56:46 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 16:56:46 - agents.memory.updater - WARNING - Failed to parse LLM response for memory update: Expecting value: line 1 column 1 (char 0)
+2026-05-05 16:56:46 - agents.memory.queue - WARNING - Memory update skipped/failed for thread debug-thread-001
+2026-05-05 19:33:33 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-05 19:33:33 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-05 19:33:33 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-05 19:33:33 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-05 19:33:34 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-05 19:33:34 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-05 19:33:34 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-05 19:33:38 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-05 19:33:38 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-05 19:33:38 - backend.agents.lead_agent.agent - INFO - Create Agent(default) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-05 19:33:42 - tools.tools - INFO - Including subagent tools (task)
+2026-05-05 19:33:42 - deer_flow_mcp.cache - INFO - MCP tools not initialized, performing lazy initialization...
+2026-05-05 19:33:42 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-05 19:33:42 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-05 19:33:42 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-05 19:33:42 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-05 19:33:45 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-05 19:33:45 - deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-05 19:33:45 - root - INFO - Successfully lazy initialization mcp
+2026-05-05 19:33:45 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-05 19:33:45 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-05 19:33:45 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-05 19:34:01 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 19:34:01 - agents.memory.queue - INFO - Memory update queued for thread improve-thread-01, queue size: 1
+2026-05-05 19:36:13 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-05 19:36:13 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-05 19:36:13 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-05 19:36:13 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-05 19:36:14 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-05 19:36:14 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-05 19:36:14 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-05 19:36:16 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-05 19:36:16 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-05 19:36:17 - backend.agents.lead_agent.agent - INFO - Create Agent(default) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-05 19:36:18 - tools.tools - INFO - Including subagent tools (task)
+2026-05-05 19:36:18 - deer_flow_mcp.cache - INFO - MCP tools not initialized, performing lazy initialization...
+2026-05-05 19:36:18 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-05 19:36:18 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-05 19:36:18 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-05 19:36:18 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-05 19:36:21 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-05 19:36:21 - deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-05 19:36:21 - root - INFO - Successfully lazy initialization mcp
+2026-05-05 19:36:21 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-05 19:36:21 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-05 19:36:21 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-05 19:37:02 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 19:37:02 - agents.middlewares.clarification_middleware - INFO - Intercepted clarification request
+2026-05-05 19:37:02 - agents.memory.queue - INFO - Memory update queued for thread improve-thread-01, queue size: 1
+2026-05-05 19:37:16 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 19:37:21 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 19:37:25 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 19:37:31 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 19:37:32 - agents.memory.queue - INFO - Processing 1 queued memory updates
+2026-05-05 19:37:32 - agents.memory.queue - INFO - Updating memory for thread improve-thread-01
+2026-05-05 19:37:39 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 19:37:39 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-05 19:37:39 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-05 19:37:39 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 4, MCP tools: 42, ACP tools: 0
+2026-05-05 19:37:39 - subagents.executor - INFO - [trace=d0ef4d5f] SubagentExecutor initialized: general-purpose with 50 tools
+2026-05-05 19:37:39 - subagents.executor - INFO - [trace=d0ef4d5f] Subagent general-purpose starting async execution, task_id=call_function_16wpy059uqd6_1, timeout=900s
+2026-05-05 19:37:39 - tools.builtins.task_tool - INFO - [trace=d0ef4d5f] Started background task call_function_16wpy059uqd6_1 (subagent=general-purpose, timeout=900s, polling_limit=192 polls)
+2026-05-05 19:37:39 - tools.builtins.task_tool - INFO - [trace=d0ef4d5f] Task call_function_16wpy059uqd6_1 status: running
+2026-05-05 19:37:39 - subagents.executor - INFO - [trace=d0ef4d5f] Subagent general-purpose starting async execution with max_turns=10
+2026-05-05 19:37:41 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 19:37:41 - agents.memory.updater - WARNING - Failed to parse LLM response for memory update: Expecting value: line 1 column 1 (char 0)
+2026-05-05 19:37:41 - agents.memory.queue - WARNING - Memory update skipped/failed for thread improve-thread-01
+2026-05-05 19:43:10 - subagents.executor - INFO - Requested cancellation for background task call_function_16wpy059uqd6_1
+2026-05-05 19:58:39 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-05 19:58:39 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-05 19:58:39 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-05 19:58:39 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-05 19:58:39 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-05 19:58:40 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-05 19:58:40 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-05 19:58:40 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-05 19:58:43 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-05 19:58:43 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-05 19:58:43 - backend.agents.lead_agent.agent - INFO - Create Agent(default) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-05 19:58:45 - tools.tools - INFO - Including subagent tools (task)
+2026-05-05 19:58:45 - deer_flow_mcp.cache - INFO - MCP tools not initialized, performing lazy initialization...
+2026-05-05 19:58:45 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-05 19:58:45 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-05 19:58:45 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-05 19:58:45 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-05 19:58:47 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-05 19:58:47 - deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-05 19:58:47 - root - INFO - Successfully lazy initialization mcp
+2026-05-05 19:58:47 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-05 19:58:47 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-05 19:58:47 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-05 19:59:00 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 19:59:00 - agents.middlewares.dangling_tool_call_middleware - WARNING - Injecting 1 placeholder ToolMessage(s) for dangling tool calls
+2026-05-05 19:59:07 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 19:59:07 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-05 19:59:07 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-05 19:59:07 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 4, MCP tools: 42, ACP tools: 0
+2026-05-05 19:59:07 - subagents.executor - INFO - [trace=7ef6c413] SubagentExecutor initialized: general-purpose with 50 tools
+2026-05-05 19:59:07 - subagents.executor - INFO - [trace=7ef6c413] Subagent general-purpose starting async execution, task_id=call_function_pierrzkxtxy7_1, timeout=60s
+2026-05-05 19:59:07 - tools.builtins.task_tool - INFO - [trace=7ef6c413] Started background task call_function_pierrzkxtxy7_1 (subagent=general-purpose, timeout=60s, polling_limit=24 polls)
+2026-05-05 19:59:07 - tools.builtins.task_tool - INFO - [trace=7ef6c413] Task call_function_pierrzkxtxy7_1 status: running
+2026-05-05 19:59:07 - subagents.executor - INFO - [trace=7ef6c413] Subagent general-purpose starting async execution with max_turns=10
+2026-05-05 19:59:07 - openai._base_client - INFO - Retrying request to /chat/completions in 0.407103 seconds
+2026-05-05 19:59:11 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 19:59:11 - subagents.executor - INFO - [trace=7ef6c413] Subagent general-purpose captured AI message #1
+2026-05-05 19:59:12 - tools.builtins.task_tool - INFO - [trace=7ef6c413] Task call_function_pierrzkxtxy7_1 sent message #1/1
+2026-05-05 19:59:17 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 19:59:17 - subagents.executor - INFO - [trace=7ef6c413] Subagent general-purpose captured AI message #2
+2026-05-05 19:59:21 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 19:59:21 - subagents.executor - INFO - [trace=7ef6c413] Subagent general-purpose captured AI message #3
+2026-05-05 19:59:22 - tools.builtins.task_tool - INFO - [trace=7ef6c413] Task call_function_pierrzkxtxy7_1 sent message #2/3
+2026-05-05 19:59:22 - tools.builtins.task_tool - INFO - [trace=7ef6c413] Task call_function_pierrzkxtxy7_1 sent message #3/3
+2026-05-05 19:59:26 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 19:59:26 - subagents.executor - INFO - [trace=7ef6c413] Subagent general-purpose captured AI message #4
+2026-05-05 19:59:27 - tools.builtins.task_tool - INFO - [trace=7ef6c413] Task call_function_pierrzkxtxy7_1 sent message #4/4
+2026-05-05 19:59:28 - subagents.executor - ERROR - [trace=7ef6c413] Subagent general-purpose async execution failed
+Traceback (most recent call last):
+  File "C:\Users\BAI\Desktop\project\backend\subagents\executor.py", line 377, in _aexecute
+    async for chunk in agent.astream(state, config=run_config, context=context, stream_mode="values"):  # type: ignore[arg-type]
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3017, in astream
+    raise GraphRecursionError(msg)
+langgraph.errors.GraphRecursionError: Recursion limit of 10 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/GRAPH_RECURSION_LIMIT
+2026-05-05 19:59:32 - tools.builtins.task_tool - INFO - [trace=7ef6c413] Task call_function_pierrzkxtxy7_1 status: failed
+2026-05-05 19:59:32 - tools.builtins.task_tool - ERROR - [trace=7ef6c413] Task call_function_pierrzkxtxy7_1 failed: Recursion limit of 10 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/GRAPH_RECURSION_LIMIT
+2026-05-05 19:59:32 - openai._base_client - INFO - Retrying request to /chat/completions in 0.426503 seconds
+2026-05-05 19:59:36 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 19:59:36 - agents.middlewares.dangling_tool_call_middleware - WARNING - Injecting 1 placeholder ToolMessage(s) for dangling tool calls
+2026-05-05 19:59:40 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:00:08 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:00:08 - agents.middlewares.dangling_tool_call_middleware - WARNING - Injecting 1 placeholder ToolMessage(s) for dangling tool calls
+2026-05-05 20:00:11 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:00:22 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:00:22 - agents.middlewares.dangling_tool_call_middleware - WARNING - Injecting 1 placeholder ToolMessage(s) for dangling tool calls
+2026-05-05 20:00:26 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:00:34 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:00:34 - agents.middlewares.dangling_tool_call_middleware - WARNING - Injecting 1 placeholder ToolMessage(s) for dangling tool calls
+2026-05-05 20:00:38 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:00:38 - agents.middlewares.sandbox_audit_middleware - INFO - [SandboxAudit] {"timestamp": "2026-05-05T12:00:38.768902+00:00", "thread_id": "improve-thread-01", "command": "ls -la /mnt/user-data/workspace/", "verdict": "pass"}
+2026-05-05 20:00:47 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:00:50 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:00:55 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:01:04 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:01:08 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:01:11 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:01:15 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:01:18 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:01:18 - agents.middlewares.sandbox_audit_middleware - INFO - [SandboxAudit] {"timestamp": "2026-05-05T12:01:18.881320+00:00", "thread_id": "improve-thread-01", "command": "cp /mnt/user-data/workspace/github-trending-2026-05-05.md /mnt/user-data/outputs/", "verdict": "pass"}
+2026-05-05 20:01:27 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:01:34 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:01:38 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:01:42 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:01:45 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:01:49 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:01:49 - agents.memory.queue - INFO - Memory update queued for thread improve-thread-01, queue size: 1
+2026-05-05 20:01:49 - sandbox.middleware - INFO - Releasing sandbox local from context
+2026-05-05 20:02:19 - agents.memory.queue - INFO - Processing 1 queued memory updates
+2026-05-05 20:02:19 - agents.memory.queue - INFO - Updating memory for thread improve-thread-01
+2026-05-05 20:02:29 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:02:29 - agents.memory.updater - WARNING - Failed to parse LLM response for memory update: Expecting value: line 1 column 1 (char 0)
+2026-05-05 20:02:29 - agents.memory.queue - WARNING - Memory update skipped/failed for thread improve-thread-01
+2026-05-05 20:03:45 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:03:49 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:03:54 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:04:00 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:04:03 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:04:08 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:04:19 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:04:19 - agents.memory.queue - INFO - Memory update queued for thread improve-thread-01, queue size: 1
+2026-05-05 20:04:49 - agents.memory.queue - INFO - Processing 1 queued memory updates
+2026-05-05 20:04:49 - agents.memory.queue - INFO - Updating memory for thread improve-thread-01
+2026-05-05 20:05:01 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-05 20:05:01 - agents.memory.updater - WARNING - Failed to parse LLM response for memory update: Expecting value: line 1 column 1 (char 0)
+2026-05-05 20:05:01 - agents.memory.queue - WARNING - Memory update skipped/failed for thread improve-thread-01
+2026-05-06 16:38:23 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 16:38:23 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 16:38:23 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 16:38:23 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 16:38:23 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 16:38:23 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 16:38:23 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-06 16:38:24 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-06 16:38:24 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-06 16:38:24 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-06 16:38:28 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-06 16:38:28 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-06 16:38:28 - backend.agents.lead_agent.agent - INFO - Create Agent(default) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-06 16:38:31 - tools.tools - INFO - Including subagent tools (task)
+2026-05-06 16:38:31 - deer_flow_mcp.cache - INFO - MCP tools not initialized, performing lazy initialization...
+2026-05-06 16:38:31 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-06 16:38:31 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-06 16:38:31 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-06 16:38:31 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-06 16:38:36 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-06 16:38:36 - deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-06 16:38:36 - root - INFO - Successfully lazy initialization mcp
+2026-05-06 16:38:36 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-06 16:38:36 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-06 16:38:36 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-06 16:40:11 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:40:15 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:40:18 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:40:23 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:40:29 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:40:35 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:40:35 - agents.middlewares.tool_error_handling_middleware - ERROR - Tool execution failed (async): name=skill_manage id=call_function_n8q3ctah7f4d_1 attempt=1/2
+Traceback (most recent call last):
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\tool_error_handling_middleware.py", line 75, in awrap_tool_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 638, in call_inner
+    return await inner(req, execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 641, in composed
+    return await outer(request, call_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\deferred_tool_filter_middleware.py", line 107, in awrap_tool_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 638, in call_inner
+    return await inner(req, execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\clarification_middleware.py", line 175, in awrap_tool_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1189, in execute
+    return await self._execute_tool_async(req, input_type, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1133, in _execute_tool_async
+    content = _handle_tool_error(e, flag=self._handle_tool_errors)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 432, in _handle_tool_error
+    content = flag(e)  # type: ignore [assignment, call-arg]
+              ^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 389, in _default_handle_tool_errors
+    raise e
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1090, in _execute_tool_async
+    response = await tool.ainvoke(call_args, config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\structured.py", line 70, in ainvoke
+    return await super().ainvoke(input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\base.py", line 652, in ainvoke
+    return await self.arun(tool_input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\base.py", line 1131, in arun
+    raise error_to_raise
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\base.py", line 1097, in arun
+    response = await coro_with_context(coro, context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\structured.py", line 124, in _arun
+    return await self.coroutine(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\tools\skill_manage_tool.py", line 235, in skill_manage_tool
+    return await _skill_manage_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\tools\skill_manage_tool.py", line 109, in _skill_manage_impl
+    await _to_thread(validate_skill_markdown_content, name, content)
+  File "C:\Users\BAI\Desktop\project\backend\tools\skill_manage_tool.py", line 75, in _to_thread
+    return await asyncio.to_thread(func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\skill\manager.py", line 114, in validate_skill_markdown_content
+    raise ValueError(message)
+ValueError: No YAML frontmatter found
+2026-05-06 16:40:35 - agents.middlewares.tool_error_handling_middleware - ERROR - Tool execution failed (async): name=skill_manage id=call_function_n8q3ctah7f4d_1 attempt=2/2
+Traceback (most recent call last):
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\tool_error_handling_middleware.py", line 75, in awrap_tool_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 638, in call_inner
+    return await inner(req, execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 641, in composed
+    return await outer(request, call_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\deferred_tool_filter_middleware.py", line 107, in awrap_tool_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 638, in call_inner
+    return await inner(req, execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\clarification_middleware.py", line 175, in awrap_tool_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1189, in execute
+    return await self._execute_tool_async(req, input_type, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1133, in _execute_tool_async
+    content = _handle_tool_error(e, flag=self._handle_tool_errors)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 432, in _handle_tool_error
+    content = flag(e)  # type: ignore [assignment, call-arg]
+              ^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 389, in _default_handle_tool_errors
+    raise e
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1090, in _execute_tool_async
+    response = await tool.ainvoke(call_args, config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\structured.py", line 70, in ainvoke
+    return await super().ainvoke(input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\base.py", line 652, in ainvoke
+    return await self.arun(tool_input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\base.py", line 1131, in arun
+    raise error_to_raise
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\base.py", line 1097, in arun
+    response = await coro_with_context(coro, context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\structured.py", line 124, in _arun
+    return await self.coroutine(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\tools\skill_manage_tool.py", line 235, in skill_manage_tool
+    return await _skill_manage_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\tools\skill_manage_tool.py", line 109, in _skill_manage_impl
+    await _to_thread(validate_skill_markdown_content, name, content)
+  File "C:\Users\BAI\Desktop\project\backend\tools\skill_manage_tool.py", line 75, in _to_thread
+    return await asyncio.to_thread(func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\skill\manager.py", line 114, in validate_skill_markdown_content
+    raise ValueError(message)
+ValueError: No YAML frontmatter found
+2026-05-06 16:40:43 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:40:43 - agents.middlewares.tool_error_handling_middleware - ERROR - Tool execution failed (async): name=skill_manage id=call_function_g0yh07578ow2_1 attempt=1/2
+Traceback (most recent call last):
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\tool_error_handling_middleware.py", line 75, in awrap_tool_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 638, in call_inner
+    return await inner(req, execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 641, in composed
+    return await outer(request, call_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\deferred_tool_filter_middleware.py", line 107, in awrap_tool_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 638, in call_inner
+    return await inner(req, execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\clarification_middleware.py", line 175, in awrap_tool_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1189, in execute
+    return await self._execute_tool_async(req, input_type, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1133, in _execute_tool_async
+    content = _handle_tool_error(e, flag=self._handle_tool_errors)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 432, in _handle_tool_error
+    content = flag(e)  # type: ignore [assignment, call-arg]
+              ^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 389, in _default_handle_tool_errors
+    raise e
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1090, in _execute_tool_async
+    response = await tool.ainvoke(call_args, config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\structured.py", line 70, in ainvoke
+    return await super().ainvoke(input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\base.py", line 652, in ainvoke
+    return await self.arun(tool_input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\base.py", line 1131, in arun
+    raise error_to_raise
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\base.py", line 1097, in arun
+    response = await coro_with_context(coro, context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\structured.py", line 124, in _arun
+    return await self.coroutine(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\tools\skill_manage_tool.py", line 235, in skill_manage_tool
+    return await _skill_manage_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\tools\skill_manage_tool.py", line 109, in _skill_manage_impl
+    await _to_thread(validate_skill_markdown_content, name, content)
+  File "C:\Users\BAI\Desktop\project\backend\tools\skill_manage_tool.py", line 75, in _to_thread
+    return await asyncio.to_thread(func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\skill\manager.py", line 114, in validate_skill_markdown_content
+    raise ValueError(message)
+ValueError: Unexpected key(s) in SKILL.md frontmatter: triggers
+2026-05-06 16:40:44 - agents.middlewares.tool_error_handling_middleware - ERROR - Tool execution failed (async): name=skill_manage id=call_function_g0yh07578ow2_1 attempt=2/2
+Traceback (most recent call last):
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\tool_error_handling_middleware.py", line 75, in awrap_tool_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 638, in call_inner
+    return await inner(req, execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 641, in composed
+    return await outer(request, call_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\deferred_tool_filter_middleware.py", line 107, in awrap_tool_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 638, in call_inner
+    return await inner(req, execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\clarification_middleware.py", line 175, in awrap_tool_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1189, in execute
+    return await self._execute_tool_async(req, input_type, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1133, in _execute_tool_async
+    content = _handle_tool_error(e, flag=self._handle_tool_errors)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 432, in _handle_tool_error
+    content = flag(e)  # type: ignore [assignment, call-arg]
+              ^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 389, in _default_handle_tool_errors
+    raise e
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1090, in _execute_tool_async
+    response = await tool.ainvoke(call_args, config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\structured.py", line 70, in ainvoke
+    return await super().ainvoke(input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\base.py", line 652, in ainvoke
+    return await self.arun(tool_input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\base.py", line 1131, in arun
+    raise error_to_raise
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\base.py", line 1097, in arun
+    response = await coro_with_context(coro, context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\structured.py", line 124, in _arun
+    return await self.coroutine(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\tools\skill_manage_tool.py", line 235, in skill_manage_tool
+    return await _skill_manage_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\tools\skill_manage_tool.py", line 109, in _skill_manage_impl
+    await _to_thread(validate_skill_markdown_content, name, content)
+  File "C:\Users\BAI\Desktop\project\backend\tools\skill_manage_tool.py", line 75, in _to_thread
+    return await asyncio.to_thread(func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\miniconda3\envs\agentchat\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\skill\manager.py", line 114, in validate_skill_markdown_content
+    raise ValueError(message)
+ValueError: Unexpected key(s) in SKILL.md frontmatter: triggers
+2026-05-06 16:40:49 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:40:57 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:41:06 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:41:10 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:41:10 - agents.memory.queue - INFO - Memory update queued for thread improve-thread-01, queue size: 1
+2026-05-06 16:41:10 - sandbox.middleware - INFO - Releasing sandbox local from context
+2026-05-06 16:41:40 - agents.memory.queue - INFO - Processing 1 queued memory updates
+2026-05-06 16:41:40 - agents.memory.queue - INFO - Updating memory for thread improve-thread-01
+2026-05-06 16:41:48 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:41:48 - agents.memory.updater - WARNING - Failed to parse LLM response for memory update: Expecting value: line 1 column 1 (char 0)
+2026-05-06 16:41:48 - agents.memory.queue - WARNING - Memory update skipped/failed for thread improve-thread-01
+2026-05-06 16:43:10 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:43:10 - agents.memory.queue - INFO - Memory update queued for thread improve-thread-01, queue size: 1
+2026-05-06 16:43:52 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 16:43:52 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 16:43:52 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 16:43:52 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 16:43:52 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 16:43:52 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 16:43:52 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-06 16:43:53 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-06 16:43:53 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-06 16:43:53 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-06 16:43:58 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-06 16:43:58 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-06 16:43:58 - backend.agents.lead_agent.agent - INFO - Create Agent(default) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-06 16:44:00 - tools.tools - INFO - Including subagent tools (task)
+2026-05-06 16:44:00 - deer_flow_mcp.cache - INFO - MCP tools not initialized, performing lazy initialization...
+2026-05-06 16:44:00 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-06 16:44:00 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-06 16:44:00 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-06 16:44:00 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-06 16:44:05 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-06 16:44:05 - deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-06 16:44:05 - root - INFO - Successfully lazy initialization mcp
+2026-05-06 16:44:05 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-06 16:44:05 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-06 16:44:05 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-06 16:44:23 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:44:23 - agents.memory.queue - INFO - Memory update queued for thread improve-thread-01, queue size: 1
+2026-05-06 16:44:53 - agents.memory.queue - INFO - Processing 1 queued memory updates
+2026-05-06 16:44:53 - agents.memory.queue - INFO - Updating memory for thread improve-thread-01
+2026-05-06 16:45:20 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:45:20 - agents.memory.updater - WARNING - Failed to parse LLM response for memory update: Expecting value: line 1 column 1 (char 0)
+2026-05-06 16:45:20 - agents.memory.queue - WARNING - Memory update skipped/failed for thread improve-thread-01
+2026-05-06 16:46:07 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:46:11 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:46:11 - agents.memory.queue - INFO - Memory update queued for thread improve-thread-01, queue size: 1
+2026-05-06 16:46:41 - agents.memory.queue - INFO - Processing 1 queued memory updates
+2026-05-06 16:46:41 - agents.memory.queue - INFO - Updating memory for thread improve-thread-01
+2026-05-06 16:46:52 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:46:52 - agents.memory.updater - WARNING - Failed to parse LLM response for memory update: Expecting value: line 1 column 1 (char 0)
+2026-05-06 16:46:52 - agents.memory.queue - WARNING - Memory update skipped/failed for thread improve-thread-01
+2026-05-06 16:49:26 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:49:26 - agents.memory.queue - INFO - Memory update queued for thread improve-thread-01, queue size: 1
+2026-05-06 16:49:56 - agents.memory.queue - INFO - Processing 1 queued memory updates
+2026-05-06 16:49:56 - agents.memory.queue - INFO - Updating memory for thread improve-thread-01
+2026-05-06 16:50:21 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 16:50:21 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 16:50:21 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 16:50:21 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 16:50:21 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 16:50:21 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 16:50:21 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-06 16:50:21 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-06 16:50:21 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-06 16:50:21 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-06 16:50:24 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-06 16:50:24 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-06 16:50:24 - backend.agents.lead_agent.agent - INFO - Create Agent(default) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-06 16:50:26 - tools.tools - INFO - Including subagent tools (task)
+2026-05-06 16:50:26 - deer_flow_mcp.cache - INFO - MCP tools not initialized, performing lazy initialization...
+2026-05-06 16:50:26 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-06 16:50:26 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-06 16:50:26 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-06 16:50:26 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-06 16:50:29 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-06 16:50:29 - deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-06 16:50:29 - root - INFO - Successfully lazy initialization mcp
+2026-05-06 16:50:29 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-06 16:50:29 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-06 16:50:29 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-06 16:50:49 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:50:49 - agents.memory.queue - INFO - Memory update queued for thread improve-thread-01, queue size: 1
+2026-05-06 16:51:10 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:51:13 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:51:16 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:51:19 - agents.memory.queue - INFO - Processing 1 queued memory updates
+2026-05-06 16:51:19 - agents.memory.queue - INFO - Updating memory for thread improve-thread-01
+2026-05-06 16:51:20 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:51:20 - agents.memory.queue - INFO - Memory update queued for thread improve-thread-01, queue size: 1
+2026-05-06 16:51:20 - sandbox.middleware - INFO - Releasing sandbox local from context
+2026-05-06 16:51:48 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:51:48 - agents.memory.updater - WARNING - Failed to parse LLM response for memory update: Expecting value: line 1 column 1 (char 0)
+2026-05-06 16:51:48 - agents.memory.queue - WARNING - Memory update skipped/failed for thread improve-thread-01
+2026-05-06 16:51:50 - agents.memory.queue - INFO - Processing 1 queued memory updates
+2026-05-06 16:51:50 - agents.memory.queue - INFO - Updating memory for thread improve-thread-01
+2026-05-06 16:52:04 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 16:52:04 - agents.memory.updater - WARNING - Failed to parse LLM response for memory update: Expecting value: line 1 column 1 (char 0)
+2026-05-06 16:52:04 - agents.memory.queue - WARNING - Memory update skipped/failed for thread improve-thread-01
+2026-05-06 17:04:15 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 17:04:15 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 17:04:15 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 17:04:15 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 17:04:15 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-06 17:04:15 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-06 17:04:15 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-06 17:04:15 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-06 17:04:18 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-06 17:04:18 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-06 17:04:18 - backend.agents.lead_agent.agent - INFO - Create Agent(default) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-06 17:04:20 - tools.tools - INFO - Including subagent tools (task)
+2026-05-06 17:04:20 - deer_flow_mcp.cache - INFO - MCP tools not initialized, performing lazy initialization...
+2026-05-06 17:04:20 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-06 17:04:20 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-06 17:04:20 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-06 17:04:20 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-06 17:04:22 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-06 17:04:22 - deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-06 17:04:22 - root - INFO - Successfully lazy initialization mcp
+2026-05-06 17:04:22 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-06 17:04:22 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-06 17:04:22 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-06 17:05:18 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 17:05:24 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 17:05:24 - agents.memory.queue - INFO - Memory update queued for thread improve-thread-01, queue size: 1
+2026-05-06 17:05:54 - agents.memory.queue - INFO - Processing 1 queued memory updates
+2026-05-06 17:05:54 - agents.memory.queue - INFO - Updating memory for thread improve-thread-01
+2026-05-06 17:06:19 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 17:06:19 - agents.memory.updater - WARNING - Failed to parse LLM response for memory update: Expecting value: line 1 column 1 (char 0)
+2026-05-06 17:06:19 - agents.memory.queue - WARNING - Memory update skipped/failed for thread improve-thread-01
+2026-05-06 17:07:57 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 17:07:57 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 17:07:57 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 17:07:57 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 17:07:57 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 17:07:57 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 17:07:57 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-06 17:07:57 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-06 17:07:57 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-06 17:07:57 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-06 17:08:00 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-06 17:08:00 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-06 17:08:00 - backend.agents.lead_agent.agent - INFO - Create Agent(default) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-06 17:08:02 - tools.tools - INFO - Including subagent tools (task)
+2026-05-06 17:08:02 - deer_flow_mcp.cache - INFO - MCP tools not initialized, performing lazy initialization...
+2026-05-06 17:08:02 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-06 17:08:02 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-06 17:08:02 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-06 17:08:02 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-06 17:08:04 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-06 17:08:04 - deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-06 17:08:04 - root - INFO - Successfully lazy initialization mcp
+2026-05-06 17:08:04 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-06 17:08:04 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-06 17:08:04 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-06 17:08:12 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 17:08:12 - agents.memory.queue - INFO - Memory update queued for thread improve-thread-01, queue size: 1
+2026-05-06 17:08:42 - agents.memory.queue - INFO - Processing 1 queued memory updates
+2026-05-06 17:08:42 - agents.memory.queue - INFO - Updating memory for thread improve-thread-01
+2026-05-06 17:08:51 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 17:08:51 - agents.memory.updater - WARNING - Failed to parse LLM response for memory update: Expecting value: line 1 column 1 (char 0)
+2026-05-06 17:08:51 - agents.memory.queue - WARNING - Memory update skipped/failed for thread improve-thread-01
+2026-05-06 17:08:59 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 17:08:59 - agents.memory.queue - INFO - Memory update queued for thread improve-thread-01, queue size: 1
+2026-05-06 17:11:32 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 17:11:32 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 17:11:32 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 17:11:32 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 17:11:32 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 17:11:32 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 17:11:32 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-06 17:11:32 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-06 17:11:32 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-06 17:11:32 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-06 17:11:36 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-06 17:11:36 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-06 17:11:36 - backend.agents.lead_agent.agent - INFO - Create Agent(default) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-06 17:11:38 - tools.tools - INFO - Including subagent tools (task)
+2026-05-06 17:11:38 - deer_flow_mcp.cache - INFO - MCP tools not initialized, performing lazy initialization...
+2026-05-06 17:11:38 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-06 17:11:38 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-06 17:11:38 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-06 17:11:38 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-06 17:11:41 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-06 17:11:41 - deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-06 17:11:41 - root - INFO - Successfully lazy initialization mcp
+2026-05-06 17:11:41 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-06 17:11:41 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-06 17:11:41 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-06 17:12:02 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 17:12:02 - agents.memory.queue - INFO - Memory update queued for thread improve-thread-01, queue size: 1
+2026-05-06 17:12:32 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 17:12:32 - agents.memory.queue - INFO - Memory update queued for thread improve-thread-01, queue size: 1
+2026-05-06 17:20:57 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 17:20:57 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 17:20:58 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-06 17:20:58 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-06 17:20:58 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-06 17:20:58 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-06 17:20:58 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-06 17:20:58 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-06 17:21:01 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-06 17:21:01 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-06 17:21:01 - backend.agents.lead_agent.agent - INFO - Create Agent(default) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-06 17:21:03 - tools.tools - INFO - Including subagent tools (task)
+2026-05-06 17:21:03 - deer_flow_mcp.cache - INFO - MCP tools not initialized, performing lazy initialization...
+2026-05-06 17:21:03 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-06 17:21:03 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-06 17:21:03 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-06 17:21:03 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-06 17:21:06 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-06 17:21:06 - deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-06 17:21:06 - root - INFO - Successfully lazy initialization mcp
+2026-05-06 17:21:06 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-06 17:21:06 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-06 17:21:06 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-06 17:21:25 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 17:21:28 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 17:21:31 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 17:21:31 - agents.middlewares.tool_error_handling_middleware - ERROR - Tool execution failed (async): name=skill_manage id=call_function_oze5wfo055ys_1 attempt=1/2
+Traceback (most recent call last):
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\tool_error_handling_middleware.py", line 75, in awrap_tool_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 638, in call_inner
+    return await inner(req, execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 641, in composed
+    return await outer(request, call_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\deferred_tool_filter_middleware.py", line 107, in awrap_tool_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 638, in call_inner
+    return await inner(req, execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\clarification_middleware.py", line 175, in awrap_tool_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1189, in execute
+    return await self._execute_tool_async(req, input_type, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1133, in _execute_tool_async
+    content = _handle_tool_error(e, flag=self._handle_tool_errors)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 432, in _handle_tool_error
+    content = flag(e)  # type: ignore [assignment, call-arg]
+              ^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 389, in _default_handle_tool_errors
+    raise e
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1090, in _execute_tool_async
+    response = await tool.ainvoke(call_args, config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\structured.py", line 70, in ainvoke
+    return await super().ainvoke(input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\base.py", line 652, in ainvoke
+    return await self.arun(tool_input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\base.py", line 1131, in arun
+    raise error_to_raise
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\base.py", line 1097, in arun
+    response = await coro_with_context(coro, context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\structured.py", line 124, in _arun
+    return await self.coroutine(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\tools\skill_manage_tool.py", line 235, in skill_manage_tool
+    return await _skill_manage_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\tools\skill_manage_tool.py", line 210, in _skill_manage_impl
+    raise ValueError(f"Unsupported action '{action}'.")
+ValueError: Unsupported action 'read'.
+2026-05-06 17:21:31 - agents.middlewares.tool_error_handling_middleware - ERROR - Tool execution failed (async): name=skill_manage id=call_function_oze5wfo055ys_1 attempt=2/2
+Traceback (most recent call last):
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\tool_error_handling_middleware.py", line 75, in awrap_tool_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 638, in call_inner
+    return await inner(req, execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 641, in composed
+    return await outer(request, call_inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\deferred_tool_filter_middleware.py", line 107, in awrap_tool_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 638, in call_inner
+    return await inner(req, execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\clarification_middleware.py", line 175, in awrap_tool_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1189, in execute
+    return await self._execute_tool_async(req, input_type, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1133, in _execute_tool_async
+    content = _handle_tool_error(e, flag=self._handle_tool_errors)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 432, in _handle_tool_error
+    content = flag(e)  # type: ignore [assignment, call-arg]
+              ^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 389, in _default_handle_tool_errors
+    raise e
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langgraph\prebuilt\tool_node.py", line 1090, in _execute_tool_async
+    response = await tool.ainvoke(call_args, config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\structured.py", line 70, in ainvoke
+    return await super().ainvoke(input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\base.py", line 652, in ainvoke
+    return await self.arun(tool_input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\base.py", line 1131, in arun
+    raise error_to_raise
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\base.py", line 1097, in arun
+    response = await coro_with_context(coro, context)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\tools\structured.py", line 124, in _arun
+    return await self.coroutine(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\tools\skill_manage_tool.py", line 235, in skill_manage_tool
+    return await _skill_manage_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\tools\skill_manage_tool.py", line 210, in _skill_manage_impl
+    raise ValueError(f"Unsupported action '{action}'.")
+ValueError: Unsupported action 'read'.
+2026-05-06 17:21:35 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 17:21:35 - agents.memory.queue - INFO - Memory update queued for thread mock-interview-01, queue size: 1
+2026-05-06 17:21:35 - sandbox.middleware - INFO - Releasing sandbox local from context
