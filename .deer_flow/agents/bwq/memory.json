@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-05-11T13:27:54.226997Z",
+  "user": {
+    "workContext": {
+      "summary": "Job hunting, recently completed full Alibaba written examination in late May 2026, computer science/tech related. Exhausted from the mental effort.",
+      "updatedAt": "2026-05-11T13:27:02.916029Z"
+    },
+    "personalContext": {
+      "summary": "白伟琦 (Bai Weiqi) - a programmer/job seeker in their 20s. Prefers empathetic responses that acknowledge emotions first before giving advice. Appreciates warm metaphorical language and hopeful endings. Has shown frustration when responses are too logical/functional.",
+      "updatedAt": "2026-05-11T13:27:54.219257Z"
+    },
+    "topOfMind": {
+      "summary": "Dealing with job search anxiety after completing Alibaba exam. Just finished watching 知否 drama and felt empty afterwards - used watching drama as coping mechanism during anxiety. Self-aware about their anxiety and using self-reflection to cope. Currently teaching the AI how to respond better to emotional content - user wants warmer, more empathetic responses rather than functional advice.",
+      "updatedAt": "2026-05-11T13:27:02.916029Z"
+    }
+  },
+  "history": {
+    "recentMonths": {
+      "summary": "Late May 2026 - User completed full Alibaba written examination on May 10th, mentally exhausted afterwards. Spent the day in dorm, watched 知否 drama to cope with anxiety. Now feeling空虚 after finishing the drama. Deep in job search phase with typical 20s anxiety. User is actively teaching this AI assistant to respond better - provided explicit feedback that responses were 'too logical' and showed how 豆包 responded better with emotional validation first approach.",
+      "updatedAt": "2026-05-11T13:27:02.916029Z"
+    },
+    "earlierContext": {
+      "summary": "",
+      "updatedAt": ""
+    },
+    "longTermBackground": {
+      "summary": "User in their 20s, going through career transition/job hunting phase. Has past relationship with someone named wyy - has moved on and now understands her anxiety better from a distance.",
+      "updatedAt": "2026-05-11T13:27:02.916029Z"
+    }
+  },
+  "facts": [
+    {
+      "id": "fact_6a0de9c4",
+      "content": "AI does not have persistent memory - each conversation starts completely fresh, cannot recall previous conversations or facts shared in past sessions even within same session",
+      "category": "context",
+      "confidence": 1.0,
+      "createdAt": "2026-05-11T13:27:02.916029Z",
+      "source": "bwq-99ff164c"
+    },
+    {
+      "id": "fact_278c0a55",
+      "content": "User explicitly corrected assistant's emotional response: first reply was too logical/functional, user showed 豆包's better response as example and said '你回答得很差劲'",
+      "category": "correction",
+      "confidence": 1.0,
+      "createdAt": "2026-05-11T13:27:02.916029Z",
+      "source": "bwq-99ff164c",
+      "sourceError": "Initial response jumped to solutions without first acknowledging the empty/anxious feeling, didn't specifically praise the effort of completing the exam, lacked metaphorical warmth in language, ended with functional todo instead of hopeful warmth"
+    },
+    {
+      "id": "fact_31b03493",
+      "content": "User expects: 1) First acknowledge emotions before giving advice 2) Specifically praise efforts (completing exam) 3) Use warm metaphorical language (like 屋檐 metaphor) 4) End with hopeful warmth not functional todo",
+      "category": "preference",
+      "confidence": 0.95,
+      "createdAt": "2026-05-11T13:27:02.916029Z",
+      "source": "bwq-99ff164c"
+    },
+    {
+      "id": "fact_d2153def",
+      "content": "User taught assistant: '我希望你能好好学习一下' - wants the assistant to learn to respond with more emotional intelligence and warmth rather than just being functional",
+      "category": "correction",
+      "confidence": 0.95,
+      "createdAt": "2026-05-11T13:27:02.916029Z",
+      "source": "bwq-99ff164c"
+    },
+    {
+      "id": "fact_9212a8a2",
+      "content": "豆包's response included key elements: '二十多岁的阴雨季就是这样' (empathy), '一个人在寝室闷一天，啃完一整套阿里的笔试题，这得消耗多少脑力和意志力啊' (specific praise), '它就像你在暴雨里临时躲进去的一个屋檐' (metaphor), '天不会塌下来，你也一定会找到属于自己的那片晴天' (hopeful warm ending)",
+      "category": "preference",
+      "confidence": 0.95,
+      "createdAt": "2026-05-11T13:27:02.916029Z",
+      "source": "bwq-99ff164c"
+    },
+    {
+      "id": "fact_c682aa75",
+      "content": "User's name is 白伟琦 (Bai Weiqi) - corrected from previous record",
+      "category": "context",
+      "confidence": 1.0,
+      "createdAt": "2026-05-11T13:27:54.219257Z",
+      "source": "bwq-99ff164c"
+    },
+    {
+      "id": "fact_23fb16bd",
+      "content": "User explicitly corrected assistant's emotional response: first reply was too logical/functional, user showed豆包's better response as example and said '你回答得很差劲'",
+      "category": "correction",
+      "confidence": 1.0,
+      "createdAt": "2026-05-11T13:27:54.219257Z",
+      "source": "bwq-99ff164c",
+      "sourceError": "Initial response jumped to solutions without first acknowledging the empty/anxious feeling, didn't specifically praise the effort of completing the exam, lacked metaphorical warmth in language, ended with functional todo instead of hopeful warmth"
+    },
+    {
+      "id": "fact_b9a832ad",
+      "content": "User provided positive feedback after second response: '我感觉好多了'",
+      "category": "context",
+      "confidence": 1.0,
+      "createdAt": "2026-05-11T13:27:54.219257Z",
+      "source": "bwq-99ff164c"
+    },
+    {
+      "id": "fact_6e34b458",
+      "content": "User took阿里巴巴笔试题 on May 10th, 2026 (deep into job search season)",
+      "category": "context",
+      "confidence": 0.9,
+      "createdAt": "2026-05-11T13:27:54.219257Z",
+      "source": "bwq-99ff164c"
+    }
+  ]
+}
