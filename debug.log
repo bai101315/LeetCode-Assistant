@@ -470,3 +470,235 @@
 2026-05-11 22:16:03 - agents.memory.queue - INFO - Memory update queued for thread daily-report-3f60b650, queue size: 1
 2026-05-11 22:16:33 - agents.memory.queue - INFO - Processing 1 queued memory updates
 2026-05-11 22:16:33 - agents.memory.queue - INFO - Updating memory for thread daily-report-3f60b650
+2026-05-11 22:20:03 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-11 22:20:03 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-11 22:20:03 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-11 22:20:03 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-11 22:20:03 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-11 22:20:03 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-11 22:20:03 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-11 22:20:04 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-11 22:20:04 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-11 22:20:04 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-11 22:20:07 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-11 22:20:07 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-11 22:20:53 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 22:20:53 - backend.agents.memory.storage - ERROR - Failed to load memory storage agents.memory.storage.FileMemoryStorage, falling back to FileMemoryStorage: Configured memory storage 'agents.memory.storage.FileMemoryStorage' is not a subclass of MemoryStorage
+2026-05-11 22:20:53 - backend.agents.memory.storage - INFO - Memory saved to C:\Users\BAI\Desktop\project\.deer_flow\agents\hjw\memory.json
+2026-05-11 22:20:53 - backend.agents.lead_agent.agent - INFO - Create Agent(hjw) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-11 22:20:53 - tools.tools - INFO - Including subagent tools (task)
+2026-05-11 22:20:53 - deer_flow_mcp.cache - INFO - MCP tools not initialized, performing lazy initialization...
+2026-05-11 22:20:53 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-11 22:20:53 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-11 22:20:53 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-11 22:20:53 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-11 22:20:56 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-11 22:20:56 - deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-11 22:20:56 - root - INFO - Successfully lazy initialization mcp
+2026-05-11 22:20:56 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-11 22:20:56 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-11 22:20:56 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-11 22:21:28 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 22:21:28 - agents.memory.queue - INFO - Memory update queued for thread hjw-b967a24c, queue size: 1
+2026-05-11 22:29:44 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-11 22:29:44 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-11 22:29:44 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-11 22:29:44 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-11 22:29:44 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-11 22:29:44 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-11 22:29:44 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-11 22:29:45 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-11 22:29:45 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-11 22:29:45 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-11 22:29:48 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-11 22:29:48 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-12 10:06:41 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-12 10:06:41 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-12 10:06:41 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-12 10:06:41 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-12 10:06:41 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-12 10:06:41 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-12 10:06:41 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-12 10:06:42 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-12 10:06:42 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-12 10:06:42 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-12 10:06:45 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-12 10:06:45 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-12 10:10:48 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-12 10:10:48 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-12 10:10:48 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-12 10:10:48 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-12 10:10:48 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-12 10:10:49 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-12 10:10:49 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-12 10:10:49 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-12 10:10:51 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-12 10:10:51 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-12 10:12:32 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 10:12:32 - backend.agents.memory.storage - ERROR - Failed to load memory storage agents.memory.storage.FileMemoryStorage, falling back to FileMemoryStorage: Configured memory storage 'agents.memory.storage.FileMemoryStorage' is not a subclass of MemoryStorage
+2026-05-12 10:12:32 - backend.agents.memory.storage - INFO - Memory saved to C:\Users\BAI\Desktop\project\.deer_flow\agents\hjw\memory.json
+2026-05-12 10:12:32 - backend.agents.lead_agent.agent - INFO - Create Agent(hjw) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, provider_model: deepseek-chat, custom_endpoint: True, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-12 10:12:38 - backend.agents.lead_agent.agent - INFO - Create Agent(hjw) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, provider_model: deepseek-chat, custom_endpoint: True, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-12 10:16:48 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-12 10:16:48 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-12 10:16:48 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-12 10:16:48 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-12 10:16:48 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-12 10:16:48 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-12 10:16:48 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-12 10:16:49 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-12 10:16:49 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-12 10:16:49 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-12 10:16:51 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-12 10:16:51 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-12 10:18:00 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 10:18:00 - backend.agents.memory.storage - ERROR - Failed to load memory storage agents.memory.storage.FileMemoryStorage, falling back to FileMemoryStorage: Configured memory storage 'agents.memory.storage.FileMemoryStorage' is not a subclass of MemoryStorage
+2026-05-12 10:18:00 - backend.agents.memory.storage - INFO - Memory saved to C:\Users\BAI\Desktop\project\.deer_flow\agents\hjw\memory.json
+2026-05-12 10:18:00 - backend.agents.lead_agent.agent - INFO - Create Agent(hjw) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, provider_model: deepseek-chat, custom_endpoint: True, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-12 10:18:04 - backend.agents.lead_agent.agent - INFO - Create Agent(hjw) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, provider_model: deepseek-chat, custom_endpoint: True, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-12 10:21:53 - skill.loader - INFO - get_skills_root_path - backend_dir: C:\Users\BAI\Desktop\project
+2026-05-12 10:21:53 - skill.loader - INFO - get_skills_root_path - backend_dir: C:\Users\BAI\Desktop\project
+2026-05-12 10:24:08 - config.app_config - WARNING - Environment variable DEEPSEEK_API_KEY not found for config value $DEEPSEEK_API_KEY; leaving placeholder unchanged
+2026-05-12 10:24:08 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-12 10:24:08 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-12 10:24:08 - backend.config.app_config - WARNING - Environment variable DEEPSEEK_API_KEY not found for config value $DEEPSEEK_API_KEY; leaving placeholder unchanged
+2026-05-12 10:24:08 - config.subagents_config - INFO - Subagents config loaded: default timeout=60s, default max_turns=None, no per-agent overrides
+2026-05-12 10:24:08 - config.acp_config - INFO - ACP config loaded: 0 agent(s): []
+2026-05-12 10:24:08 - backend.deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-12 10:24:09 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-12 10:24:09 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-12 10:24:09 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-12 10:24:11 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-12 10:24:11 - backend.deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-12 10:24:14 - backend.agents.lead_agent.agent - INFO - Create Agent(hjw) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, provider_model: deepseek-chat, custom_endpoint: True, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-12 10:24:15 - tools.tools - INFO - Including subagent tools (task)
+2026-05-12 10:24:15 - deer_flow_mcp.cache - INFO - MCP tools not initialized, performing lazy initialization...
+2026-05-12 10:24:15 - deer_flow_mcp.cache - INFO - Initializing MCP tools...
+2026-05-12 10:24:15 - deer_flow_mcp.client - INFO - Configured MCP server: github
+2026-05-12 10:24:15 - deer_flow_mcp.client - INFO - Configured MCP server: leetcode
+2026-05-12 10:24:15 - deer_flow_mcp.tools - INFO - Initializing MCP client with 2 server(s)
+2026-05-12 10:24:17 - deer_flow_mcp.tools - INFO - Successfully loaded 42 tool(s) from MCP servers
+2026-05-12 10:24:17 - deer_flow_mcp.cache - INFO - MCP tools initialized: 42 tool(s) loaded (config mtime: 1777979747.952573)
+2026-05-12 10:24:17 - root - INFO - Successfully lazy initialization mcp
+2026-05-12 10:24:17 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-12 10:24:17 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-12 10:24:17 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-12 10:24:28 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/anthropic/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-12 10:24:28 - agents.middlewares.llm_error_handling_middleware - WARNING - LLM call failed after 1 attempt(s): Error code: 404
+Traceback (most recent call last):
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\llm_error_handling_middleware.py", line 185, in awrap_model_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 361, in inner_handler
+    inner_result = await inner(req, handler)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 371, in composed
+    outer_result = await outer(request, inner_handler)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\middleware\todo.py", line 253, in awrap_model_call
+    return await handler(request.override(system_message=new_system_message))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 361, in inner_handler
+    inner_result = await inner(req, handler)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\deferred_tool_filter_middleware.py", line 96, in awrap_model_call
+    return await handler(self._filter_tools(request))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 1281, in _execute_model_async
+    output = await model_.ainvoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5708, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 477, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1196, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1154, in agenerate
+    raise exceptions[0]
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1423, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 1754, in _agenerate
+    _handle_openai_api_error(e)
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 1747, in _agenerate
+    raw_response = await self.async_client.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\openai\_legacy_response.py", line 384, in wrapped
+    return cast(LegacyAPIResponse[R], await func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\openai\_base_client.py", line 1913, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\openai\_base_client.py", line 1698, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.NotFoundError: Error code: 404
+2026-05-12 10:24:28 - agents.memory.queue - INFO - Memory update queued for thread hjw-b967a24c, queue size: 1
+2026-05-12 10:24:37 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/anthropic/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-12 10:24:37 - agents.middlewares.llm_error_handling_middleware - WARNING - LLM call failed after 1 attempt(s): Error code: 404
+Traceback (most recent call last):
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\llm_error_handling_middleware.py", line 185, in awrap_model_call
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 361, in inner_handler
+    inner_result = await inner(req, handler)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 371, in composed
+    outer_result = await outer(request, inner_handler)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\middleware\todo.py", line 253, in awrap_model_call
+    return await handler(request.override(system_message=new_system_message))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 361, in inner_handler
+    inner_result = await inner(req, handler)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\backend\agents\middlewares\deferred_tool_filter_middleware.py", line 96, in awrap_model_call
+    return await handler(self._filter_tools(request))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain\agents\factory.py", line 1281, in _execute_model_async
+    output = await model_.ainvoke(messages)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5708, in ainvoke
+    return await self.bound.ainvoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 477, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1196, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1154, in agenerate
+    raise exceptions[0]
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1423, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 1754, in _agenerate
+    _handle_openai_api_error(e)
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 1747, in _agenerate
+    raw_response = await self.async_client.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\openai\_legacy_response.py", line 384, in wrapped
+    return cast(LegacyAPIResponse[R], await func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\openai\_base_client.py", line 1913, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BAI\Desktop\project\.venv\Lib\site-packages\openai\_base_client.py", line 1698, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.NotFoundError: Error code: 404
+2026-05-12 10:24:37 - agents.memory.queue - INFO - Memory update queued for thread hjw-b967a24c, queue size: 1
+2026-05-12 10:24:54 - backend.agents.lead_agent.agent - INFO - Create Agent(bwq) -> thinking_enabled: False, reasoning_effort: None, model_name: minimax-m2.5, provider_model: None, custom_endpoint: False, is_plan_mode: True, subagent_enabled: True, max_concurrent_subagents: 3
+2026-05-12 10:24:54 - tools.tools - INFO - Including subagent tools (task)
+2026-05-12 10:24:54 - tools.tools - INFO - Using 42 cached MCP tool(s)
+2026-05-12 10:24:54 - tools.tools - INFO - Tool search active: 42 tools deferred
+2026-05-12 10:24:54 - tools.tools - INFO - Total tools loaded: 6, built-in tools: 5, MCP tools: 42, ACP tools: 0
+2026-05-12 10:25:03 - httpx - INFO - HTTP Request: POST https://api.minimaxi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 10:25:03 - agents.memory.queue - INFO - Memory update queued for thread bwq-99ff164c, queue size: 2
